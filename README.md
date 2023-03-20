@@ -11,7 +11,7 @@
 ### Clone the repository to your local machine:
 ## shell
 ### Copy code
-`$ git clone https://github.com/your-username/game-space.git`
+`$ git clone https://github.com/abdelillahbel/GameBoxAndroidApp.git`
 ### Open the project in `Android Studio` or `IntelliJ IDEA`.
 
 ### Build the project and run it on an Android device or emulator.
