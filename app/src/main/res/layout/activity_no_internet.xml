@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".No_internet">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/noint"
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/nointernet" />
+
+        <TextView
+            android:id="@+id/nointext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/noint"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="11sp"
+            android:text="No internet connection!"
+            android:textColor="#6765ff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/nointext2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nointext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/inter_medium"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="11sp"
+            android:text="Please try again"
+            android:textColor="#8c8bfb"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/retry"
+            android:layout_width="260dp"
+            android:layout_height="70dp"
+            android:layout_below="@+id/nointext2"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/retrybtn" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

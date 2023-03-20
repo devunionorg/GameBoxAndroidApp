@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gamehub.gamehub">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GameBox"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.gamehub.gamehub.firsttime.Screen_three"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.firsttime.Screen_two"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.firsttime.Screen_one"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.No_internet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Mind"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Cards"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Classic"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Racing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Action"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.gamehub.gamehub.GameLoader" />
+        <activity
+            android:name="com.gamehub.gamehub.Contact"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.Category"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.gamehub.gamehub.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256899942544~3347511713" />
+    </application>
+
+</manifest>

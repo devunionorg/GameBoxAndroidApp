@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cards">
+
+
+    <TextView
+        android:id="@+id/actiontext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/inter_bold"
+        android:letterSpacing="-0.04"
+        android:lineSpacingExtra="11sp"
+        android:text="Cards"
+        android:textColor="#a141eb"
+        android:textSize="45sp" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/actiontext">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            //1st row
+
+            <LinearLayout
+                android:id="@+id/a1"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_below="@+id/actiontext"
+                android:layout_marginTop="20dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+
+                    //item1
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/crd_item1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/crd1" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                    //item2
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/crd_item2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/crd2" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            //2nd row
+
+            <LinearLayout
+                android:id="@+id/a2"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_below="@+id/a1"
+
+
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+                    >
+
+                    //item3
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/crd_item3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/crd3" />
+
+                        </RelativeLayout>
+
+
+                    </LinearLayout>
+
+
+                    //item4
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <RelativeLayout
+                            android:id="@+id/crd_item4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_centerInParent="true"
+                                android:background="@drawable/crd4" />
+
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".firsttime.Screen_two">
+
+    <RelativeLayout
+        android:id="@+id/rel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/im1"
+            android:layout_width="250dp"
+            android:layout_height="260dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/intr2" />
+
+        <TextView
+            android:id="@+id/textin1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/im1"
+
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/inter_bold"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="11sp"
+            android:text="Save Storage Space"
+            android:textColor="#6765ff"
+            android:textSize="25sp" />
+
+
+        <TextView
+            android:id="@+id/textin2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textin1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-4dp"
+            android:fontFamily="@font/inter_medium"
+            android:letterSpacing="-0.04"
+            android:lineSpacingExtra="11sp"
+            android:text="No need to install and waste storage"
+            android:textColor="#8c8bfb"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/side"
+            android:layout_width="40dp"
+            android:layout_height="13dp"
+            android:layout_below="@+id/textin2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/s2btm" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/btnscreentwo"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/next_btn" />
+
+</RelativeLayout>
