@@ -1,4 +1,5 @@
 # GameBoxAndroidApp
+![GameBoxAndroidApp Logo](/app/src/main/)
 - GameBox is an Android app that lets users discover and play a variety of mobile games.
 
 # Screenshots
