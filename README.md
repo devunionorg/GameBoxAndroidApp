@@ -10,11 +10,11 @@
 
 ### Clone the repository to your local machine:
 ## shell
-### Copy code
+* Copy code
 `$ git clone https://github.com/abdelillahbel/GameBoxAndroidApp.git`
-### Open the project in `Android Studio` or `IntelliJ IDEA`.
+* Open the project in `Android Studio` or `IntelliJ IDEA`.
 
-### Build the project and run it on an Android device or emulator.
+* Build the project and run it on an Android device or emulator.
 
 # Usage
 ### Once you've installed Game Space, you can use it to:
@@ -33,7 +33,7 @@
 * Submit a pull request with a detailed description of your changes.
 
 # License
-**Game Space is released under the MIT License.**
+**Game Box is released under the MIT License.**
 
 # Contact
-If you have any questions or issues with Game Space, please contact us at `abdelillahbel@pm.me` .
+If you have any questions or issues with Game Box, please contact us at `abdelillahbel@pm.me` .
