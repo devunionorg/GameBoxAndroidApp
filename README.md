@@ -1,5 +1,5 @@
 # GameBoxAndroidApp
-![GameBoxAndroidApp Logo](/app/src/main/)
+![GameBoxAndroidApp Logo](/app/src/main/ic_launcher-playstore.png)
 - GameBox is an Android app that lets users discover and play a variety of mobile games.
 
 # Screenshots
