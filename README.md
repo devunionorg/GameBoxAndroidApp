@@ -37,4 +37,4 @@
 **Game Box is released under the MIT License.**
 
 # Contact
-If you have any questions or issues with Game Box, please contact us at `abdelillahbel@pm.me` .
+If you have any questions or issues with Game Box, please contact us at `abdelillahbel@pm.me`.
