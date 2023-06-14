@@ -24,7 +24,7 @@ public class Cards extends AppCompatActivity {
         crd4 = (RelativeLayout) findViewById(R.id.crd_item4);
 
 
-        //loading url
+        //loading urls
         crd1loader = "https://games.cdn.famobi.com/html5games/d/duo-cards/v230/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=a049631f-a44c-4486-8042-0a1170b154d5&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=532&original_ref=https%3A%2F%2Fgames.famobi.com%2F";
         crd2loader = "https://games.cdn.famobi.com/html5games/g/gin-rummy-plus/v270/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=4f0b6ea7-7801-41a2-9117-53aae9295173&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=533&original_ref=https%3A%2F%2Fgames.famobi.com%2F";
         crd3loader = "https://games.cdn.famobi.com/html5games/c/crossover-21/v080/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=569b9d43-61ca-454c-af87-f6cc6f935c44&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=552&original_ref=https%3A%2F%2Fgames.famobi.com%2F";
